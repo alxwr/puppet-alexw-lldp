@@ -1,5 +1,7 @@
 /.bundle/
-/vendor/
 /Gemfile.lock
+/pkg/
+/vendor/
+
 *.swp
 *.swo
