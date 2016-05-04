@@ -4,7 +4,6 @@
 
 1. [Overview](#overview)
 4. [Usage - Configuration options and additional functionality](#usage)
-5. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
 5. [Limitations - OS compatibility, etc.](#limitations)
 6. [Development - Guide for contributing to the module](#development)
 
@@ -16,7 +15,9 @@ Read more about LLDP here: https://vincentbernat.github.io/lldpd/
 
 ## Usage
 
-    class { 'lldp': }
+    class { 'lldp':
+      ensure => 'present'  # or 'absent'
+    }
 
 ## Limitations
 
