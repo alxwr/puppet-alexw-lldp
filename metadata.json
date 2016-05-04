@@ -1,5 +1,5 @@
 {
-  "name": "alexw-lldpd",
+  "name": "alexw-lldp",
   "version": "0.1.0",
   "author": "alexw",
   "summary": "LLDP service for Debian/Ubuntu and FreeBSD",
