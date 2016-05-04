@@ -1,0 +1,14 @@
+{
+  "name": "alexw-lldpd",
+  "version": "0.1.0",
+  "author": "alexw",
+  "summary": "LLDP service for Debian/Ubuntu and FreeBSD",
+  "license": "GNU GPLv3",
+  "source": "https://github.com/alxwr/puppet-alexw-lldp.git",
+  "project_page": "https://github.com/alxwr/puppet-alexw-lldp",
+  "issues_url": "https://github.com/alxwr/puppet-alexw-lldp/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
