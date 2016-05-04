@@ -15,4 +15,5 @@ task :validate do
   Dir['templates/**/*.erb'].each do |template|
     sh "erb -P -x -T '-' #{template} | ruby -c"
   end
+  Rake::Task[:lint].invoke
 end
