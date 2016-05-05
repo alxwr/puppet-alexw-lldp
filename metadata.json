@@ -1,6 +1,6 @@
 {
   "name": "alexw-lldp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "alexw",
   "summary": "LLDP service for Debian/Ubuntu and FreeBSD",
   "license": "GPL-3.0",
